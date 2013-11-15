@@ -1,0 +1,40 @@
+RSVP questions
+
+name/code
+- display whether it has been filled out yet / date last edited
+are you coming?
+- yes, no, maybe (details)
+menu choice
+- 1, 2, 3, or 4
+dinner prep choice
+- choices, or free text?
+other dietary needs?
+- GF, Dairy Free, Veg., Vegan, Other
+do you need help finding or booking a hotel room?
+- yes, no
+message for us
+- free text
+
+
+Party
+partyID
+code
+partySize
+modifiedDate
+
+Guest
+guestID
+partyID
+firstName
+lastName
+attending
+attendingDetails
+menuChoice
+dietaryGlutenFree
+dietaryDairyFree
+dietaryVegetarian
+dietaryVegan
+dietaryOther
+dietaryDetails
+hotelHelp
+message

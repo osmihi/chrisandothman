@@ -1,0 +1,118 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	overflow-y: scroll;
+	min-height: 1000px;
+	/*padding-top: 70px;*/ /* Use with fixed header */
+	background-image:url('../assets/VanGoghTileSolidLo.jpg');
+	background-color:#aa7c3e;
+	background-repeat:repeat;
+	/*background-attachment:fixed;*/ /* This was preventing repeat on phones for some reason */
+}
+
+.pageTitle {
+	margin-bottom:20px;
+}
+
+.cornerVine {
+	width:100%;
+	background-image:url('../assets/cornerVine.png'), url('../assets/parchment.jpg');
+	background-size: 50%;
+	background-position:right top, left top;
+	background-repeat:no-repeat, repeat;	
+}
+
+#bodyText {
+	padding-right:50px;
+}
+
+.picLink {
+	float:right;
+	margin:10px;
+	text-align:center;
+}
+
+#usPic {
+	margin:25px;
+}
+
+a.anchor {
+	display:block;
+	position:relative;
+	top:-70px;
+	visibility:hidden;
+}
+
+.textList li {
+	line-height:1.5;
+	margin-bottom:3px;
+}
+
+.guestForm {
+	font-size:medium;
+	line-height:normal;
+}
+
+.inline {
+	display:inline-block;
+}
+
+#s2id_dietName {
+	width:100%;
+}
+
+.regularLabel {
+	font-weight:normal;
+}
+
+.google-map-canvas, .google-map-canvas * {
+	.box-sizing(content-box); 
+}
+
+.formLine {
+	margin-top:6px;
+}
+
+.partyGuests li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+.activeGuest {
+	font-weight:bold;
+}
+
+.kid {
+	display:none;
+}
+
+.partyResultName {
+	margin-left:0.5em;
+}
+
+#partyResults {
+	font-size:smaller;
+}
+
+.partyChoice {
+	margin: 0.5em 0;
+	border-right: 1px inset tan;
+	border-bottom: 1px inset tan;
+	-webkit-box-shadow:  2px 2px 1px 1px rgba(220, 220, 220, .4);
+    box-shadow:  2px 2px 1px 1px rgba(220, 220, 220, .4);
+}
+
+.halfWide {
+	max-width:55%
+}
+
+#step2Header {
+	display:none;
+	margin-top:1em;
+}
+
+#formArea {
+	margin-top:0.5em;
+	padding-top:0.5em;
+}
